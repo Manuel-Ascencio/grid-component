@@ -16,6 +16,8 @@
     }
     section{
         width: 90%;
+        box-shadow:rgba(149, 157, 165, 0.3) 0px 8px 24px;
+        border-radius: 10px 10px 10px 10px;
     }
     .grid-container{
         display: grid;
@@ -67,7 +69,7 @@
     .price span{
         font-size: 1rem;
         font-weight: 800;
-        margin-right: 10px;
+        margin-right: 5px;
         color: #fff;
     }
     .price p:nth-child(2){
@@ -107,7 +109,7 @@
         font-weight: 500;
         font-size: .7rem;
     }
-    
+
 @media screen and (min-width: 650px){
     section{
         width: 80%;
@@ -140,6 +142,7 @@
     .price span{
         font-size: 1.2rem;
         font-weight: 800;
+        margin-right: 7px;
     }
     .price p:nth-child(1){
         font-size: 1.1rem;
@@ -171,7 +174,6 @@
     }
     .about_us p{
         line-height: 15px;
-        /* font-weight: 500; */
         font-size: .9rem;
     }
 }
